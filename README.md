@@ -1,6 +1,5 @@
 # DEVOPS  -   Devloper Operations
 50
-
 20  -   Junior Developer (LOC)
 
 10  -   Senior Developer
