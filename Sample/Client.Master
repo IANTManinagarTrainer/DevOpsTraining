@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Client.master.cs" Inherits="Sample.Client" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <style>
+       
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <h1 align="center">Monitor Shopping</h1>
+    <hr />
+    <form id="form1" runat="server">
+        <asp:Menu ID="Menu1" runat="server">
+            <Items>
+                <asp:MenuItem NavigateUrl="Default.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="About.aspx" Text="About" Value="About"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="Login.aspx" Text="Login" Value="Login"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
